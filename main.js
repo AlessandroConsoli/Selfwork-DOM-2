@@ -9,3 +9,13 @@ button_Insert.addEventListener('click' , ()=>{
     paragraph_1.innerHTML = prompt('Inserisci un paragrafo');
     pubblication_Time.innerHTML = Date();
 })
+
+
+
+// button_Insert.addEventListener('click' , ()=>{
+//     while (title.innerHTML == null || paragraph_1.innerHTML == null) {
+//         title.innerHTML = prompt('Inserisci un titolo');
+//         paragraph_1.innerHTML = prompt('Inserisci un paragrafo');
+//         pubblication_Time.innerHTML = Date();        
+//     }
+// })
