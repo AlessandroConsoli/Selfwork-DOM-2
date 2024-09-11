@@ -21,7 +21,7 @@ let pubblication_Time = Date()
 button_Insert.addEventListener('click', ()=>{
 
 
-    if (title.value == '' && paragraph_1.value == '') {
+    if (title.value == '' || paragraph_1.value == '') {
         alert('Tutti i campi sono obbligatori')
     }else{
         let div = document.createElement('div')
